@@ -15,3 +15,8 @@ spring:
       max-idle: 10
       min-idle: 0
     timeout: 1000
+  zipkin:
+    base-url: http://localhost:9411
+  slenth:
+    sampler:
+      percentage: 1.0
