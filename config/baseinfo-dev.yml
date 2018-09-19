@@ -20,3 +20,5 @@ spring:
   slenth:
     sampler:
       percentage: 1.0
+logging:
+  file: "logs/eureka-${spring.application.name}.log"
